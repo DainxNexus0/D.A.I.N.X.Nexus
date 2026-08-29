@@ -1,0 +1,15 @@
+// Dang X Nexus
+
+
+
+// Initial system behaviommr
+
+document.addEventListener("DOMContentLoaded", () => {
+  const status = document.getElementById("status");
+
+  if (status) {
+    status.textContent = "NEXUS ONLINE • SYSTEM READY";
+  }
+
+  console.log("Dang X Nexus initialized.");
+});
